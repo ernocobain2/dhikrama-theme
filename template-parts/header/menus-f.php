@@ -1,4 +1,4 @@
-<div class="nav-home">
+<div class="nav-front">
     <div class="container-navigation">  
             <?php
             $args = array(
@@ -9,6 +9,6 @@
 
             wp_nav_menu($args);
             ?>
-        <button>test</button>
+        <button>home</button>
     </div>
 </div>

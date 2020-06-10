@@ -1,6 +1,7 @@
 <?php
 register_nav_menus(array(
     "main_menu" => "Main Menu",
+    "footer_menu" => "Footer Menu"
 ));
 
 add_filter('nav_menu_css_class', 'my_css_attributes_filter', 100, 1);

@@ -1,13 +1,16 @@
 <style>
+    .item-container{
+
+    }
     .item-body{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        margin: 10px;
+        gap: 10px
     }
 
     .post-home {
-        background-color: antiquewhite;
-        border-style: solid;
-        border-width: .5px;
-        margin: 10px;
-        width: 30%;
+        background-color:  #eeeeee;
     }
 </style>

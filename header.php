@@ -19,10 +19,11 @@
         <nav>
         <?php
         if (!get_front_page_template()) {
-            get_template_part("template-parts/header/menus", "f");
-        } else {
             get_template_part("template-parts/header/menus", "h");
+        } else {
+            echo "tidak ada menu";
         }
         ?>
         </nav>
+        <button>test</button>
     </div>

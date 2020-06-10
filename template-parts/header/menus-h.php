@@ -9,6 +9,5 @@
 
             wp_nav_menu($args);
             ?>
-        <button>test</button>
     </div>
 </div>
